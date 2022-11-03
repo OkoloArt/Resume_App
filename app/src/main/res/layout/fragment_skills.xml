@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="@dimen/dp_10"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".SkillsFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/about_me_heading"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="About Me"
+        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+    <View
+        style="@style/Divider" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/about_me"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/skills_heading"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:text="Skills"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:layout_height="wrap_content" />
+
+    <View
+        style="@style/Divider" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/skills_recyclerview"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/company_added_value_heading"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:text="What Values Can I Add To The Company"
+        android:layout_height="wrap_content" />
+
+    <View
+        style="@style/Divider" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/company_added_value"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dp_10"
+        android:text="@string/values_text"
+        android:layout_height="wrap_content" />
+</LinearLayout>
