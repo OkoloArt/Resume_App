@@ -6,7 +6,7 @@
 
 > _What are the sprinkles?_ - The sprinkles involves styling the app, designing for multiple screen orientation.
 
-> Live demo [_Resume_App_](https://appetize.io/app/vhrovqdoca4kmae4nnmhvcclwa?device=pixel4&osVersion=11.0&scale=75). 
+> Live demo [_Resume_App_](https://appetize.io/app/vhrovqdoca4kmae4nnmhvcclwa?device=pixel6&osVersion=12.0&scale=50). 
 
 ## Table of Contents
 * [General Info](#general-information)
