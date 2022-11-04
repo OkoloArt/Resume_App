@@ -14,7 +14,7 @@
 * [Features](#features)
 * [Challenges](#challenges)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
+* [Acknowledgements](#acknowledgements-/-libraries)
 * [What I learned](#what-i-learned)
 * [Contact](#contact)
 
