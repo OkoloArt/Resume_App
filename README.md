@@ -8,6 +8,9 @@
 
 > Live demo [_Resume_App_](https://appetize.io/app/vhrovqdoca4kmae4nnmhvcclwa?device=pixel6&osVersion=12.0&scale=50). 
 
+> Apk File [_Resume_App_](https://drive.google.com/file/d/1VLXCoDVP8zKoh2__UC7_C3fYljH1YF9d/view?usp=share_link). 
+
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Built with](#built-with)
@@ -22,12 +25,12 @@
 - The aim of this project is to easily and concisely display an itemized qualifications as an Android Developer.
 
 ## Built with
-- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development.
-
+- [Kotlin](https://kotlinlang.org/) - First class and official programming language for Android development. To run Kotlin on your computer, you will need to install the Kotlin compiler
 - [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
-
   - [Jetpack Navigation](https://developer.android.com/guide/navigation) - Navigation refers to the interactions that allow users to navigate across, into, and back out from the different pieces of content within your app
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
+- [Viewpager](https://developer.android.com/guide/navigation/navigation-swipe-view) - A widget that allows the user to flip through pages of data. To run a viewpager in Android Studio, you will need to add the ViewPager widget to your layout file and then set up the adapter and fragments
+- [Fragments](https://developer.android.com/guide/navigation/navigation-swipe-view) - A powerful tool that can be used to create modular and reusable components in your Android app. In order to run fragments in Android Studio, you need to first add the fragment to your project. You can do this by creating a new fragment class and then adding it to your layout file
 
 ## Features
 - Toogle DayNight Theme 
