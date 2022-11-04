@@ -6,7 +6,7 @@
 
 > _What are the sprinkles?_ - The sprinkles involves styling the app, designing for multiple screen orientation.
 
-> Live demo [_Resume_App_](). 
+> Live demo [_Resume_App_](https://appetize.io/app/vhrovqdoca4kmae4nnmhvcclwa?device=pixel4&osVersion=11.0&scale=75). 
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -14,7 +14,7 @@
 * [Features](#features)
 * [Challenges](#challenges)
 * [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements-/-libraries)
+* [Acknowledgements](#acknowledgements)
 * [What I learned](#what-i-learned)
 * [Contact](#contact)
 
@@ -29,7 +29,6 @@
   - [Jetpack Navigation](https://developer.android.com/guide/navigation) - Navigation refers to the interactions that allow users to navigate across, into, and back out from the different pieces of content within your app
 - [Material Components for Android](https://github.com/material-components/material-components-android) - Modular and customizable Material Design UI components for Android.
 
-
 ## Features
 - Toogle DayNight Theme 
 - Landscape Screen Orientation 
@@ -43,15 +42,14 @@
 - Language Localization 
 - Adding Relevant work experience with clickable links
 
-## Acknowledgements / Libraries
+## Acknowledgements
+Libraries Used :-
 - Viewpager Indicator [Zhpanvip](https://github.com/zhpanvip/viewpagerindicator) :- For Viewpager Indicatior
 - Circular Imageview [Hdodenhof](https://github.com/hdodenhof/CircleImageView) :- For Circular Imageview
-- Resume App Design Inspired By [Helena](https://dribbble.com/shots/14436103-Resume-App)
+- Resume App Design Inspired By [Helena](https://dribbble.com/shots/14436103-Resume-App) :- A Swipeable Two page Resume App
 
 ## What i learned
 - Landscape Variation 
 
 ## Contact
 Created by [Okolo](https://twitter.com/Okolo_Arthur) - feel free to contact me!
-
-
