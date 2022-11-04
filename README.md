@@ -15,6 +15,7 @@
 * [General Info](#general-information)
 * [Built with](#built-with)
 * [Features](#features)
+* [Screenshots](#screenshots)
 * [Challenges](#challenges)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -36,6 +37,9 @@
 - Toogle DayNight Theme 
 - Landscape Screen Orientation 
 - Display Profile Image, Skills, About me.
+
+## Screenshots
+![resume_app](https://user-images.githubusercontent.com/54189037/200030633-965b5036-5589-4257-b763-6a32a55218d4.jpg)
 
 ## Challenges
 - Adding a viewpager indicator :- Solved by using a third party library
