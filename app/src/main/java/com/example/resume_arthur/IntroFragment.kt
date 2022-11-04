@@ -1,6 +1,7 @@
 package com.example.resume_arthur
 
 import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -20,7 +21,7 @@ class IntroFragment : Fragment()
     private var _binding: FragmentIntroBinding? = null
     private val binding get() = _binding!!
 
-    private var dayNightMode = false
+    private var dayNightMode = true
 
     override fun onCreateView(
         inflater: LayoutInflater , container: ViewGroup? ,
@@ -35,9 +36,26 @@ class IntroFragment : Fragment()
     {
         super.onViewCreated(view , savedInstanceState)
 
+        if (AppCompatDelegate.getDefaultNightMode() == AppCompatDelegate.MODE_NIGHT_YES) {
+            dayNightMode=!dayNightMode
+            binding.apply {
+                dayButton.visibility =View.VISIBLE
+                nightButton.visibility =View.INVISIBLE
+                profileImage.borderColor = Color.WHITE
+            }
+        } else {
+            binding.apply {
+                dayButton.visibility =View.GONE
+                nightButton.visibility =View.VISIBLE
+            }
+        }
+
         binding.apply {
-            dayNightToggleButton.setOnClickListener{
-                setDayNightTheme()
+            nightButton.setOnClickListener{
+                setDayNightTheme(dayNightMode)
+            }
+            dayButton.setOnClickListener {
+                setDayNightTheme(dayNightMode)
             }
             linkedin.setOnClickListener {
                 val linkedInUrl = "https://www.linkedin.com/in/okolo-arthur-56983818b/"
@@ -56,17 +74,15 @@ class IntroFragment : Fragment()
         _binding = null
     }
 
-    private fun setDayNightTheme() {
-        dayNightMode = !dayNightMode
-        if (dayNightMode) {
+    private fun setDayNightTheme(dayNight : Boolean) {
+        if (dayNight) {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             Toast.makeText(requireContext(),"Night mode on", Toast.LENGTH_SHORT).show()
-            binding.dayNightToggleButton.setImageResource(R.drawable.ic_light_mode)
-        //    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
         } else {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
             Toast.makeText(requireContext(),"Night mode off", Toast.LENGTH_SHORT).show()
-            binding.dayNightToggleButton.setImageResource(R.drawable.ic_mode_night)
-        //    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
         }
+        dayNightMode = !dayNightMode
     }
 
     private fun openSocialLinks(url: String) {

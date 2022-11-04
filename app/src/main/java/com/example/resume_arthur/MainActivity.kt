@@ -20,14 +20,15 @@ class MainActivity : AppCompatActivity()
 
         setSupportActionBar(null)
 
+        val resumePagerAdapter = ResumePagerAdapter(this, this)
+        binding.viewPager.adapter = resumePagerAdapter
+
         binding.indicatorView.apply {
             setSliderWidth(resources.getDimension(R.dimen.dp_10))
             setSliderHeight(resources.getDimension(R.dimen.dp_5))
-            setSlideMode(IndicatorSlideMode.NORMAL)
-            setIndicatorStyle(IndicatorStyle.CIRCLE)
+            setSlideMode(IndicatorSlideMode.WORM)
+            setIndicatorStyle(IndicatorStyle.ROUND_RECT)
             setupWithViewPager(binding.viewPager)
         }
-        val resumePagerAdapter = ResumePagerAdapter(this, this)
-        binding.viewPager.adapter = resumePagerAdapter
     }
 }

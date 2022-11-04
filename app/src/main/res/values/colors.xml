@@ -10,4 +10,7 @@
 
     <color name="md_white_1000">#ffffff</color>
     <color name="md_blue_100">#BBDEFB</color>
+
+    <color name="colorPrimary">#6FB6F4</color>
+    <color name="colorPrimaryDark">#3E97F0</color>
 </resources>

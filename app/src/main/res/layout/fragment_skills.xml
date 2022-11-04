@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:padding="@dimen/dp_10"
@@ -14,7 +13,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dp_10"
-        android:text="About Me"
+        android:text="@string/about_me_header"
         android:textAppearance="?attr/textAppearanceHeadline6" />
 
     <View
@@ -32,7 +31,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="@dimen/dp_10"
         android:layout_width="wrap_content"
-        android:text="Skills"
+        android:text="@string/skills"
         android:textAppearance="?attr/textAppearanceHeadline6"
         android:layout_height="wrap_content" />
 
@@ -51,7 +50,7 @@
         android:layout_marginTop="@dimen/dp_10"
         android:layout_gravity="center_horizontal"
         android:textAppearance="?attr/textAppearanceHeadline6"
-        android:text="What Values Can I Add To The Company"
+        android:text="@string/values_header"
         android:layout_height="wrap_content" />
 
     <View
