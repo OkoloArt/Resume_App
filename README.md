@@ -12,7 +12,6 @@
 * [General Info](#general-information)
 * [Built with](#built-with)
 * [Features](#features)
-* [Screenshots](#screenshots)
 * [Challenges](#challenges)
 * [Room for Improvement](#room-for-improvement)
 * [Acknowledgements](#acknowledgements)
@@ -36,9 +35,6 @@
 - Landscape Screen Orientation 
 - Display Profile Image, Skills, About me.
 
-## Screenshots
-![resume_app]()
-
 ## Challenges
 - Adding a viewpager indicator :- Solved by using a third party library
 
@@ -47,20 +43,13 @@
 - Language Localization 
 - Adding Relevant work experience with clickable links
 
-## Acknowledgements
-- Viewpager Indicator [ShawLin](https://github.com/ShawnLin013/NumberPicker)
-- Mock Up design from [Freepik](https://www.freepik.com/)
-- Circular Imageview []()
+## Acknowledgements / Libraries
+- Viewpager Indicator [Zhpanvip](https://github.com/zhpanvip/viewpagerindicator) :- For Viewpager Indicatior
+- Circular Imageview [Hdodenhof](https://github.com/hdodenhof/CircleImageView) :- For Circular Imageview
+- Resume App Design Inspired By [Helena](https://dribbble.com/shots/14436103-Resume-App)
 
 ## What i learned
 - Landscape Variation 
-
-
-
-
-
-
-
 
 ## Contact
 Created by [Okolo](https://twitter.com/Okolo_Arthur) - feel free to contact me!
